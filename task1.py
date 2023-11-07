@@ -9,5 +9,16 @@
 # until they have entered a value integer value
 
 number = input("Please enter in an integer value")
-number = int(number)
+
+
+
+
+try:
+    number = int(number)
+except:
+    print("nope")
+    number = 43
+
+
 print(number)
+
